@@ -53,7 +53,7 @@ We’ll go through Python step by step:
 ## 🚀 How to Start
 1. Download (clone) the repo:
    ```bash
-   git clone https://github.com/your-username/pylearn.py
+   https://github.com/Vamsi-lll/PyLearn.py.git
 
 
 - Go into the folder:
