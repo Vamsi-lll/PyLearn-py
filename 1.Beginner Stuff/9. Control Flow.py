@@ -130,7 +130,7 @@ match browser:
         print("Opening Mozilla Firefox")
     case "edge":
         print("Opening Microsoft Edge")
-    case _:
+    case _: # this is exicuted  if the condetion not satisfied any of the cases
         print("Unsupported browser")
 
 
