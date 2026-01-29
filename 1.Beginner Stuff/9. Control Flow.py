@@ -3,26 +3,36 @@
 #====================================================
 # Control flow is used to control the execution of a program
 # based on conditions.
-# Python provides:
-# 1. if
-# 2. if-else
-# 3. if-elif-else
-# 4. match-case (similar to switch-case)
+# It helps the program decide:
+# - what to execute
+# - when to execute
+# - which block to skip
 
 
 #====================================================
 #               if statement
 #====================================================
+# The if statement is used to execute a block of code
+# only when the given condition is True.
+# If the condition is False, the block will be skipped.
 
 age = 18
 
 if age >= 18:
     print("You are eligible to vote")
 
+# Here:
+# age >= 18 → condition
+# If condition is True → print() runs
+# If condition is False → nothing happens
+
 
 #====================================================
 #               if-else statement
 #====================================================
+# The if-else statement gives two paths:
+# - if block runs when condition is True
+# - else block runs when condition is False
 
 marks = 35
 
@@ -31,10 +41,15 @@ if marks >= 40:
 else:
     print("You failed the exam")
 
+# Only one block will execute at a time
+
 
 #====================================================
 #               if-elif-else statement
 #====================================================
+# Used when we have multiple conditions to check.
+# Python checks conditions from top to bottom.
+# The first True condition block will execute.
 
 score = 78
 
@@ -49,8 +64,10 @@ else:
 
 
 #====================================================
-#               Nested if
+#               Nested if statement
 #====================================================
+# When an if statement is written inside another if statement
+# it is called a nested if.
 
 age = 20
 has_id = True
@@ -63,13 +80,17 @@ if age >= 18:
 else:
     print("Age restriction")
 
+# First outer if is checked
+# Then inner if is checked
+
 
 #====================================================
 #               match-case statement
 #====================================================
 # match-case is introduced in Python 3.10
-# It works similar to switch-case in other programming languages
-# match checks the value and executes the matching case
+# It is used as a replacement for switch-case
+# in other programming languages.
+# match compares a value and executes the matching case.
 
 day = 3
 
@@ -92,11 +113,13 @@ match day:
         print("Invalid day")
 
 # case _ works like default in switch-case
+# It runs when no case matches
 
 
 #====================================================
 #           match-case with strings
 #====================================================
+# match-case can also work with strings
 
 browser = "chrome"
 
@@ -112,21 +135,23 @@ match browser:
 
 
 #====================================================
-#           match-case vs if-elif
+#           if-elif vs match-case
 #====================================================
-# Use match-case when:
-# - You are comparing a single variable
-# - You have fixed values
-# - Code readability matters
-
 # Use if-elif when:
 # - Conditions are complex
-# - Logical operators are required
+# - Logical operators (and, or, not) are needed
+
+# Use match-case when:
+# - Comparing a single variable
+# - Fixed values are used
+# - Code readability is important
 
 
 #====================================================
-#           Input with Control Flow
+#           Control flow with input()
 #====================================================
+# input() always returns a string
+# So we convert it into int before comparison
 
 choice = int(input("Enter a number between 1 to 3: "))
 
