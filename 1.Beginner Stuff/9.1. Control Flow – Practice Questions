@@ -1,0 +1,177 @@
+#====================================================
+#       Control Flow – Practice Questions
+#====================================================
+# Instructions:
+# - Use only control flow concepts
+# - Do NOT use loops
+# - Do NOT use functions
+# - Focus on if, if-else, if-elif-else, match-case
+# - Try solving first, then check output
+
+
+#====================================================
+# Question 1: Check Even or Odd
+#====================================================
+# Take a number from the user and check
+# whether it is even or odd
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+
+#====================================================
+# Question 2: Positive, Negative or Zero
+#====================================================
+# Check whether the given number is
+# positive, negative or zero
+
+number = int(input("Enter a number: "))
+
+if number > 0:
+    print("Positive number")
+elif number < 0:
+    print("Negative number")
+else:
+    print("Zero")
+
+
+#====================================================
+# Question 3: Voting Eligibility
+#====================================================
+# Take age as input and check if the
+# person is eligible to vote
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+
+#====================================================
+# Question 4: Simple Login System
+#====================================================
+# Check username and password
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "admin" and password == "1234":
+    print("Login successful")
+else:
+    print("Invalid username or password")
+
+
+#====================================================
+# Question 5: Find the Largest of Two Numbers
+#====================================================
+# Take two numbers and find the largest
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+    print("First number is greater")
+elif b > a:
+    print("Second number is greater")
+else:
+    print("Both numbers are equal")
+
+
+#====================================================
+# Question 6: Grade Calculator
+#====================================================
+# Calculate grade based on marks
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+elif marks >= 40:
+    print("Grade D")
+else:
+    print("Fail")
+
+
+#====================================================
+# Question 7: Day of the Week (match-case)
+#====================================================
+# Take a number from 1 to 7 and print the day
+
+day = int(input("Enter day number (1-7): "))
+
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")
+    case _:
+        print("Invalid day number")
+
+
+#====================================================
+# Question 8: Simple Calculator
+#====================================================
+# Perform arithmetic operation using match-case
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+operator = input("Enter operator (+, -, *, /): ")
+
+match operator:
+    case "+":
+        print("Result:", num1 + num2)
+    case "-":
+        print("Result:", num1 - num2)
+    case "*":
+        print("Result:", num1 * num2)
+    case "/":
+        if num2 != 0:
+            print("Result:", num1 / num2)
+        else:
+            print("Division by zero not allowed")
+    case _:
+        print("Invalid operator")
+
+
+#====================================================
+# Question 9: Ternary Operator Practice
+#====================================================
+# Check if a number is even or odd using ternary operator
+
+num = int(input("Enter a number: "))
+
+result = "Even" if num % 2 == 0 else "Odd"
+print(result)
+
+
+#====================================================
+# Question 10: Membership Operator
+#====================================================
+# Check if a character is a vowel
+
+char = input("Enter a character: ")
+
+if char in "aeiouAEIOU":
+    print("Vowel")
+else:
+    print("Not a vowel")
