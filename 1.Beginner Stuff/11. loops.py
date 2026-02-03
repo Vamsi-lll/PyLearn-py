@@ -1,24 +1,18 @@
 #====================================================
 #               Loops in Python
 #====================================================
-# In programming, we often need to repeat the same
-# task multiple times.
-# Writing the same code again and again is not a
-# good practice.
+# In programming, we often need to repeat the same task multiple times.
+# Writing the same code again and again is not a good practice.
 #
 # To solve this problem, Python provides LOOPS.
-
 
 #====================================================
 #               What are Loops?
 #====================================================
-# A loop is a control structure that allows us to
-# execute a block of code repeatedly until a
-# certain condition is satisfied.
+# A loop is a control structure that allows us to execute a block of code repeatedly until a certain condition is satisfied.
 #
 # In simple words:
 # Loops help us to avoid repetition of code.
-
 
 #====================================================
 #               Why do we need Loops?
