@@ -18,6 +18,12 @@ def add(a, b):
 add(10, 20)   # correct
 # add(20, 10) -> order matters
 
+#ex-2:
+def subract(a,b):
+    print(a-b)
+subract(20,10) #10
+subract(10,20) #-10
+
 
 #====================================================
 # 2. KEYWORD ARGUMENTS
