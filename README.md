@@ -19,7 +19,6 @@ We’ll go through Python step by step:
 - If/else conditions  
 - Loops (`for`, `while`)  
 - Functions (your own mini programs)  
-- Handling errors with `try` and `except`  
 
 ### 🟡 Intermediate Stuff
 - Lists, tuples, sets, and dictionaries  
@@ -30,6 +29,7 @@ We’ll go through Python step by step:
 - Decorators  
 - Generators  
 - Iterators  
+- Handling errors with `try` and `except`  
 - Context managers  
 
 ### 🔵 Advanced Stuff
