@@ -1,0 +1,95 @@
+#====================================================
+#     BUILT-IN FUNCTIONS vs USER-DEFINED FUNCTIONS
+#====================================================
+
+# In Python, functions are broadly classified into two types:
+# 1. Built-in functions
+# 2. User-defined functions
+
+
+#====================================================
+#               BUILT-IN FUNCTIONS
+#====================================================
+
+# Built-in functions are functions that are already provided by Python.
+# We can use them directly without writing their definition.
+
+# Python gives these functions to:
+# - make development faster
+# - reduce repetitive work
+# - avoid writing common logic again and again
+# - make code reliable and optimized
+
+# Some commonly used built-in functions:
+
+print("Hello Python")      # prints output
+input("Enter name: ")      # takes input from user
+type(10)                   # checks data type
+len("Python")              # returns length
+int("10")                  # type casting
+float("10.5")
+str(100)
+bool(1)
+range(5)
+
+
+#====================================================
+#            WHY BUILT-IN FUNCTIONS EXIST
+#====================================================
+
+# Imagine writing logic for printing, input handling,
+# type checking, or conversions every time.
+# That would be slow and error-prone.
+
+# Built-in functions:
+# - save time
+# - improve consistency
+# - are tested and optimized
+# - allow developers to focus on problem-solving
+
+
+#====================================================
+#            USER-DEFINED FUNCTIONS
+#====================================================
+
+# User-defined functions are functions created by the programmer
+# to perform specific tasks based on application requirements.
+
+# These functions are created using the 'def' keyword.
+
+# Example:
+
+def greet(name):
+    print("Hello", name)
+
+greet("Vamsi")
+greet("Python Learner")
+
+
+#====================================================
+#        WHY USER-DEFINED FUNCTIONS ARE NEEDED
+#====================================================
+
+# Built-in functions solve general problems.
+# But every application has unique requirements.
+
+# User-defined functions help to:
+# - write custom logic
+# - reduce code repetition
+# - organize large programs
+# - improve readability and maintainability
+
+
+#====================================================
+#        BUILT-IN vs USER-DEFINED (SUMMARY)
+#====================================================
+
+# Built-in functions:
+# - Provided by Python
+# - Ready to use
+# - General-purpose
+
+# User-defined functions:
+# - Created by programmer
+# - Customized logic
+# - Application-specific
