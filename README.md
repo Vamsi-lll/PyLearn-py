@@ -7,7 +7,7 @@ Think of it like your step‑by‑step guide to Python basics, OOPs, and beyond.
 
 ---
 
-## 🌱 What’s Inside?
+##  What’s Inside?
 
 We’ll go through Python step by step:
 
@@ -40,7 +40,7 @@ We’ll go through Python step by step:
 - Working with APIs (`requests`)  
 - Databases (SQLite basics)  
 
-### 🛠️ Mini Projects
+###  Mini Projects
 - Calculator  
 - To‑Do List (command line app)  
 - Number guessing game  
@@ -50,7 +50,7 @@ We’ll go through Python step by step:
 
 ---
 
-## 🚀 How to Start
+##  How to Start
 1. Download (clone) the repo:
    ```bash
    https://github.com/Vamsi-lll/PyLearn.py.git
