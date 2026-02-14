@@ -57,7 +57,7 @@ We’ll go through Python step by step:
 
 
 - Go into the folder:
-cd pylearn.py
+cd pylearn-py
 
 - Run any file to see examples:
 python basics/loops.py
